@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8e44ad;
+    color: #ffffff; 
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #7d3c98; 
+    background-color: white;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+button {
+    background-color: #8e44ad; 
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #6c3483; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #8e44ad; 
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+.nodo {
+    background-color: #af7ac5; 
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+#efecto-boton {
+    background-color: #c0392b;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#efecto-boton:hover {
+    background-color: #a93226;
+}
+
+.carousel-container {
+    display: flex;
+    overflow: auto; 
+}
+
+.product {
+    width: 300px;
+    margin: 0 10px;
+    padding: 20px;
+    border: 1px solid #7d3c98; 
+    text-align: center;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: 50%;
+    width: 50%;
+}
+
+.price {
+    font-weight: bold;
+    color: #8e44ad;
+}
+
+.comprar {
+    background-color: #9b59b6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: auto; 
+    transition: background-color 0.3s ease;
+}
+
+.comprar:hover {
+    background-color: #8e44ad;
+}
+
+footer {
+    background-color: #170016;
+    color: #ecf0f1; 
+    padding: 20px 0; 
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer-section h3 {
+    color: #3498db; 
+}
+
+.footer-section p {
+    line-height: 1.5;
+}
+
+.footer-section.social a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #ecf0f1; 
+    transition: color 0.3s ease;
+}
+
+.footer-section.social a:hover {
+    color: #3498db; 
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    font-size: 0.8em;
+}
+
+.footer-bottom a {
+    color: #ecf0f1; 
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-bottom a:hover {
+    color: #3498db; 
+}
+
+.social {
+    width: 20%;
+    padding-left: 5%;
+}
